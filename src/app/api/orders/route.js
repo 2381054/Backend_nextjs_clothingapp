@@ -1,6 +1,6 @@
 import { prisma } from '@/lib/prisma'
 
-const allowedOrigin = 'http://localhost:3000'
+const allowedOrigin = 'https://frontend-nextjs-clothingapp.vercel.app'
 
 function withCORS(handler) {
   return async (request) => {

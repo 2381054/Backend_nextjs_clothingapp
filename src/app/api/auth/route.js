@@ -1,7 +1,7 @@
 import { prisma } from '@/lib/prisma'
 import bcrypt from 'bcryptjs'
 
-const allowedOrigin = 'http://localhost:3000'
+const allowedOrigin = 'https://frontend-nextjs-clothingapp.vercel.app'
 
 function withCORS(handler) {
   return async (request) => {
